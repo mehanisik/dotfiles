@@ -1,6 +1,6 @@
 # Dotfiles
 
-Welcome to my dotfiles repository! This repository contains my personal configuration files for various applications and tools that I use to enhance my productivity and customize my development environment.
+This repository contains my personal configuration files for applications and tools that I use :) 
 
 ## Features
 
