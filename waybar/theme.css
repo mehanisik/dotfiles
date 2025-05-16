@@ -1,0 +1,33 @@
+/* Import pywal colors */
+@import "../../.cache/wal/colors-waybar.css";
+
+/* Main Colors */
+@define-color shadow          shade(@color0, 0.5);
+@define-color main-fg         @foreground;
+@define-color main-bg         @color0;
+@define-color main-br         @foreground;
+@define-color active-bg       @color4;
+@define-color active-fg       @foreground;
+@define-color hover-bg        @color0;
+@define-color hover-fg        alpha(@foreground, 0.75);
+
+/* Module Colors */
+@define-color module-fg       @foreground;
+@define-color workspaces      @color1;
+@define-color cpuinfo         @color2;
+@define-color memory          @color2;
+@define-color cpu             @color1;
+@define-color distro-fg       @foreground;
+@define-color distro-bg       @color1;
+@define-color time            @color1;
+@define-color date            @color2;
+@define-color tray            @color2;
+@define-color pulseaudio      @color1;
+@define-color backlight       @color1;
+@define-color battery         @color1;
+@define-color power           @color4;
+
+/* State Colors */
+@define-color warning         @color1;
+@define-color critical        @color5;
+@define-color charging        @foreground;

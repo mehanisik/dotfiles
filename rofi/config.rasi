@@ -1,0 +1,56 @@
+configuration {
+    display-drun: "";
+    drun-display-format: "{icon} {name}";
+    modi: "drun";
+    show-icons: true;
+    location: 0;
+}
+
+@theme "~/.cache/wal/colors-rofi-dark.rasi"
+
+* {
+    font: "EnvyCodeR Nerd Font Mono 13";
+    text-color: @selected-urgent-background;
+}
+
+window {
+    width: 40%;
+    height: 30%;
+    location: center; 
+    padding: 10px;
+}
+
+
+inputbar {
+    padding: 0px;
+    spacing: 20px;
+    children: [ "prompt", "entry" ];
+}
+
+imagebox {
+    background-image: url("image.jpg");
+}
+
+prompt {
+    padding: 10px;
+}
+
+entry {
+    text-color: inherit;
+    vertical-align: 0.5;
+}
+
+element-icon {
+    size: 1.5em;
+    background-color: inherit;
+}
+
+element {
+    padding: 5px;
+}
+
+element-text {
+    vertical-align: 0.5;
+    text-color: inherit;
+    background-color: inherit;
+}

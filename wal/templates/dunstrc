@@ -1,0 +1,26 @@
+[global]
+monitor = 1
+frame_width = 1
+frame_color = "{color4}"
+separator_color= frame
+highlight = "{color4}"
+background = "{background}"
+foreground = "{foreground}"
+corner_radius = 5
+progress_bar_corner_radius = 5
+corners = top-left,bottom
+progress_bar_corners = top-left,bottom-right
+offset = (15, 25)
+gap_size = 5
+
+[urgency_low]
+    background = "{background}"
+    foreground = "{foreground}"
+
+[urgency_normal]
+    background = "{background}"
+    foreground = "{foreground}"
+
+[urgency_critical]
+    background = "{background}"
+    foreground = "{foreground}"
